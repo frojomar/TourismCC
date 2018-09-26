@@ -1,0 +1,135 @@
+#map {
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#icons {
+    text-align: center;
+    align: center;
+    height: 1em;
+}
+/*Nuevo Justo*/
+.div {
+    box-shadow: 8px 8px 5px #888888;
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: white;
+}
+#legend {
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    z-index: 1;
+    height: auto;
+    width: auto;
+    background-color: white;
+    bottom: 45px;
+    left: 10px;
+
+}
+
+#form_options {
+    z-index: 1;
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    widht: auto;
+    top: 150px;
+    right: 10px;
+}
+
+#tableOptions {
+    z-index: 1;
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    widht: auto;
+    bottom: 45px;
+    right: 10px;
+}
+
+/**/
+header {
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 75px;
+    background:#468189;
+}
+
+#reloj {
+    display: block;
+    margin: 0 auto;
+    vertical-align: center;
+    color: white;
+    margin-right: 5px;
+}
+
+
+#title label {
+    font-size: 50px;
+    margin-left: 10px;
+    color: white;
+    width: auto;
+    float: left;
+}
+
+#tableBottoms {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    float: right;
+}
+
+.bottom {
+    color: #468189;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #D8DDEF;
+    border: 1px solid;
+    border-color: #318aac;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom:hover {
+    background-color: #3B6E75;
+    color: #D8DDEF;
+}
+
+#btn-menu {
+    display: none;
+}
+
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display:flex;
+    color: white;
+}
+
+li {
+    border-right: 1px solid #fff;
+}
+
+.menu li:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+    display: block;
+    padding: 17px 40px;
+    color: #fff;
+    text-decoration: none;
+}
